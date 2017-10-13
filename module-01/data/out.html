@@ -1,0 +1,1107 @@
+<!doctype html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Stack Overflow Blog - A destination for all things related to development at Stack Overflow</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v4.9 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="A destination for all things related to development at Stack Overflow"/>
+<link rel="canonical" href="https://stackoverflow.blog/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Stack Overflow Blog" />
+<meta property="og:description" content="A destination for all things related to development at Stack Overflow" />
+<meta property="og:url" content="https://stackoverflow.blog/" />
+<meta property="og:site_name" content="Stack Overflow Blog" />
+<meta property="og:image" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/apple-touch-icon@2.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="A destination for all things related to development at Stack Overflow" />
+<meta name="twitter:title" content="Stack Overflow Blog - A destination for all things related to development at Stack Overflow" />
+<meta name="twitter:site" content="@StackOverflow" />
+<meta name="twitter:image" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/apple-touch-icon@2.png" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/stackoverflow.blog\/","name":"Stack Overflow Blog","potentialAction":{"@type":"SearchAction","target":"https:\/\/stackoverflow.blog\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/stackoverflow.blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='google-fonts-css'  href='https://fonts.googleapis.com/css?family=Miriam+Libre%3A400%2C700&#038;ver=20171013' type='text/css' media='all' />
+<link rel='stylesheet' id='stack-css'  href='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/css/stackoverflow.min.css?ver=20171013' type='text/css' media='all' />
+<script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://stackoverflow.blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://stackoverflow.blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://stackoverflow.blog/wp-includes/wlwmanifest.xml" /> 
+
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link rel="icon" href="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/cropped-SO_Logo_glyph-use-this-one-smaller-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/cropped-SO_Logo_glyph-use-this-one-smaller-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/cropped-SO_Logo_glyph-use-this-one-smaller-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/03/cropped-SO_Logo_glyph-use-this-one-smaller-270x270.jpg" />
+</head>
+
+<body class="home blog">
+
+	<div id="page" class="site">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content		</a>
+
+		<header id="masthead" class="site-header">
+			<div class="top-bar">
+
+				<div class="wrapper">
+
+					<div class="logo" itemscope itemtype="http://schema.org/Organization">
+						<a itemprop="url" href="https://stackoverflow.blog/">
+							<svg role="img" class="so-icon so-icon-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Stack Overflow Logo"><use xlink:href="https://stackoverflow.blog/wp-content/themes/stackoverflow/assets/svg/output/symbol-defs.svg#so-icon-logo" /></svg>								<span class="screen-reader-text">Stackoverflow.blog</span>
+								<span class="byline"><span class="dot">.</span>blog</span>
+						</a>
+					</div>
+
+					<div class="header-right hide-on-mobile">
+						<nav class="talent-jobs" id="talent-jobs-js">
+							<div class="menu-top-nav-orange-ctas-container"><ul id="menu-top-nav-orange-ctas" class="menu"><li id="menu-item-7843" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7843"><a href="https://stackoverflow.com/jobs?utm_source=so-owned&#038;utm_medium=blog&#038;utm_campaign=gen-blog&#038;utm_content=top-nav">Developer Jobs</a></li>
+<li id="menu-item-7844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7844"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-blog-nav&#038;utm_medium=referral&#038;utm_term=nav-hiring-talent">Hire Developers</a></li>
+</ul></div>						</nav>
+
+						<div class="header-search" id="header-search-js">
+							<form role="search" method="get" class="search-form" action="https://stackoverflow.blog/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<nav id="site-navigation" class="main-navigation">
+				<div class="wrapper">
+					<div class="menu-top-categories-menu-container"><ul id="primary-navigation-js" class="primary-navigation"><li id="menu-item-7845" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7845"><a href="https://stackoverflow.blog/company/">Company</a></li>
+<li id="menu-item-7847" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7847"><a href="https://stackoverflow.blog/code-for-a-living/">Code for a Living</a></li>
+<li id="menu-item-7849" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7849"><a href="https://stackoverflow.blog/insights/">Insights</a></li>
+<li id="menu-item-7848" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7848"><a href="https://stackoverflow.blog/engineering/">Engineering</a></li>
+<li id="menu-item-7846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7846"><a href="https://stackoverflow.blog/podcasts/">Podcasts</a></li>
+<li id="menu-item-7850" class="developer-hiring-blog menu-item menu-item-type-custom menu-item-object-custom menu-item-7850"><a href="https://www.stackoverflowbusiness.com/blog?utm_source=so-blog-nav&#038;utm_medium=referral&#038;utm_term=nav-developer-hiring-blog">Developer Hiring Blog</a></li>
+</ul></div>
+					<div class="header-search mobile-only">
+						<form role="search" method="get" class="search-form" action="https://stackoverflow.blog/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>					</div>
+
+					<nav class="talent-jobs mobile-only">
+						<div class="menu-top-nav-orange-ctas-container"><ul id="menu-top-nav-orange-ctas-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7843"><a href="https://stackoverflow.com/jobs?utm_source=so-owned&#038;utm_medium=blog&#038;utm_campaign=gen-blog&#038;utm_content=top-nav">Developer Jobs</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7844"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-blog-nav&#038;utm_medium=referral&#038;utm_term=nav-hiring-talent">Hire Developers</a></li>
+</ul></div>					</nav>
+				</div>
+			</nav>
+
+			<button class="hamburger-toggle" id="hamburger-toggle">
+				<span class="linescontain">
+					<span class="lines"></span>
+				</span>
+			</button>
+
+		</header>
+
+		<div id="content" class="site-content wrapper">
+
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main">
+
+
+		<h2 class="section-title section-title--orange-underline">Featured Articles</h2>
+
+		<div class="featured-hero">
+			
+<article id="post-8244" class="m-post-card m-post-card--featured post-8244 post type-post status-publish format-standard has-post-thumbnail hentry category-build-your-career category-code-for-a-living category-remote-work" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/TheProsAndConsOfRemoteWork-630x450.jpg" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/TheProsAndConsOfRemoteWork.jpg" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/13/pros-cons-working-remotely/">The Pros and Cons of Working Remotely</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/">Alyssa Mazzina</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-13T09:15:46+00:00">October 13, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				When evaluating a job offer, you no doubt take into consideration the company’s perks and benefits before making a final decision. One benefit that’s at the top of more and...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/13/pros-cons-working-remotely/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+
+		</div>
+
+
+		<div class="columns">
+			<div class="content-river column is-three-quarters">
+
+				
+<article id="post-8239" class="m-post-card post-8239 post type-post status-publish format-standard has-post-thumbnail hentry category-build-your-career category-code-for-a-living category-interviewing category-job-hunt category-resume" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/How_to_Increase_Your_Odds_of_Landing_a_Software_Developer_Gig-630x450.jpg" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/How_to_Increase_Your_Odds_of_Landing_a_Software_Developer_Gig.jpg" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/12/increase-odds-landing-software-development-gig/">How to Increase Your Odds of Landing a Software Development Gig</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/pieterdepree/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/pieterdepree/">Pieter DePree</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-12T13:15:00+00:00">October 12, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				Whether you’re trying to land your first gig in the software industry or you’re looking to switch to a new company, now is a great time to pursue new work...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/12/increase-odds-landing-software-development-gig/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+
+<article id="post-8188" class="m-post-card post-8188 post type-post status-publish format-standard has-post-thumbnail hentry category-build-your-career category-code-for-a-living category-education" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/5_Ways_to_Improve_Your_Programming_Skills-630x450.png" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/5_Ways_to_Improve_Your_Programming_Skills.png" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/11/5-ways-improve-programming-skills-no-matter-talented-already/">5 Ways to Improve Your Programming Skills No Matter How Talented You Already Are</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/">Alyssa Mazzina</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-11T09:15:00+00:00">October 11, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				That’s both the challenge and the thrill of programming. There’s always something new to learn, and you can always get better—whether by learning an entirely new language or improving your...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/11/5-ways-improve-programming-skills-no-matter-talented-already/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+
+<article id="post-8218" class="m-post-card post-8218 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements category-company category-podcasts" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/podcast02-630x450.png" class="attachment-post-card size-post-card wp-post-image" alt="Podcast Banner" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/podcast02.png" />
+											<meta itemprop="width" content="1921" />
+						<meta itemprop="height" content="1081" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/11/podcast-118-whats-travel-hacker-anyway/">Podcast #118 &#8211; What&#8217;s a Travel-Hacker, Anyway?</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/jpardue/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/jpardue/">Jess Pardue</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-11T17:26:32+00:00">October 11, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				Welcome to The Stack Overflow Podcast episode #118 recorded Thursday, October 5 at Stack Overflow HQ in NYC. Even without Joel, who’s still out working on NamCoin, there’s still a...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/11/podcast-118-whats-travel-hacker-anyway/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+
+				
+				<!-- 3x Pop Articles component -->
+				<div class="three-x-post-block">
+					
+	<h2 class="section-title section-title--secondary section-title--orange-underline">Popular Articles</h2>
+
+<div class="columns is-mobile mobile-swipe">
+
+	
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-5048" class="m-post-card m-post-card--portrait post-5048 post type-post status-publish format-standard has-post-thumbnail hentry category-company category-culture category-engineering category-opinion category-stackexchange" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="421" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ.jpg" class="attachment-post-card size-post-card wp-post-image" alt="" srcset="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ.jpg 800w , https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ-300x200.jpg 300w , https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ-768x513.jpg 768w , https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ-599x400.jpg 599w " sizes="(max-width: 630px) 100vw, 630px" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/02/bUadQ.jpg" />
+											<meta itemprop="width" content="800" />
+						<meta itemprop="height" content="534" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2015/01/16/why-we-still-believe-in-private-offices/">Why We (Still) Believe in Private Offices</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/david/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/david/">David Fullerton</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2015-01-16T12:00:00+00:00">January 16, 2015</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				There was a time where it seemed like we barely even needed to talk about this: Joel had won the argument, the Internet agreed that private offices were the future,...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2015/01/16/why-we-still-believe-in-private-offices/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-5262" class="m-post-card m-post-card--portrait m-post-card--no-featured-thumbnail post-5262 post type-post status-publish format-standard hentry category-company category-engineering" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2016/07/27/salary-transparency/">Salary Transparency at Stack Overflow</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/matt/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/matt/">Matt Sherman</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2016-07-27T12:00:00+00:00">July 27, 2016</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				We believe (and developers tell us) that job seekers should be empowered with as much information as possible when looking for a job – especially salary. So we ran an...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2016/07/27/salary-transparency/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-5130" class="m-post-card m-post-card--portrait m-post-card--no-featured-thumbnail post-5130 post type-post status-publish format-standard hentry category-engineering" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2015/07/29/why-are-there-so-many-programming-languages/">“Why are there so many programming languages?”</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/matt/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/matt/">Matt Sherman</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2015-07-29T12:00:00+00:00">July 29, 2015</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				I was asked this question twice in the past week, by colleagues who work with our clients. It sounds like a dumb question, but it’s not.
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2015/07/29/why-are-there-so-many-programming-languages/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		</div>
+				</div>
+				<!-- // 3x Pop Articles component -->
+
+				<!-- 3x Most recent Articles component -->
+				<div class="three-x-post-block">
+					
+	<h2 class="section-title section-title--secondary section-title--orange-underline">Most recent</h2>
+
+<div class="columns is-mobile mobile-swipe">
+
+	
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-8172" class="m-post-card m-post-card--portrait post-8172 post type-post status-publish format-standard has-post-thumbnail hentry category-announcements category-engineering category-insights" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/ImpressiveGrowthOfR-630x450.png" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/ImpressiveGrowthOfR.png" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/10/impressive-growth-r/">The Impressive Growth of R</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/drobinson/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/drobinson/">David Robinson</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-10T09:00:36+00:00">October 10, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				We found in a previous post that Python has a solid claim to being the fastest-growing programming language in terms of Stack Overflow visits.
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/10/impressive-growth-r/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-8121" class="m-post-card m-post-card--portrait post-8121 post type-post status-publish format-standard has-post-thumbnail hentry category-code-for-a-living category-hiring-now category-job-hunt" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/Companies-hiring-data-scientists-right-now-630x450.jpg" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/Companies-hiring-data-scientists-right-now.jpg" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/09/companies-hiring-data-scientists-right-now/">Companies Hiring Data Scientists Right Now</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/amazzina/">Alyssa Mazzina</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-09T09:15:00+00:00">October 9, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				One of our Data Scientists at Stack Overflow, Julia Silge, recently wrote a post about things to know if you want to transition into a career in data science. A...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/09/companies-hiring-data-scientists-right-now/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		
+		<div class="column is-three-quarters-mobile mobile-swipe">
+			
+<article id="post-8040" class="m-post-card m-post-card--portrait post-8040 post type-post status-publish format-standard has-post-thumbnail hentry category-build-your-career category-code-for-a-living category-job-hunt" itemscope itemtype="https://schema.org/BlogPosting">
+
+ 	<div class="columns">
+
+		 			<div class="m-post-card__image-column  column">
+
+
+				<div class="m-post-card__image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+					<img width="630" height="450" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/What_You_Need_to_Know_Data_scientist-630x450.png" class="attachment-post-card size-post-card wp-post-image" alt="" />					
+	 				<meta itemprop="url" content="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/uploads/2017/10/What_You_Need_to_Know_Data_scientist.png" />
+											<meta itemprop="width" content="1920" />
+						<meta itemprop="height" content="1080" />
+									</div>
+
+ 			</div>
+ 		
+ 		<div class="m-post-card__content-column column">
+ 			<h2 class="m-post-card__title" itemprop="headline"><a href="https://stackoverflow.blog/2017/10/05/need-know-start-career-data-scientist/">What You Need to Know to Start a Career As a Data Scientist</a></h2>
+
+			<div class="m-post-card__meta"><span class="posted-on-container"><span class="author vcard" itemprop="author"><a class="url fn n" href="https://stackoverflow.blog/authors/juliasilge/"></a><span class="author-name">by <a class="url fn n" href="https://stackoverflow.blog/authors/juliasilge/">Julia Silge</a></span></span><span class="date"> on <time class="entry-date published updated" datetime="2017-10-05T09:15:15+00:00">October 5, 2017</time></span></span></div>
+
+			<div class="m-post-card__excerpt" itemprop="articleBody">
+				Demand for developers with specialized skills is on the rise across the board, and companies are particularly interested in filling data science roles. A recent IBM study projects that the number of...
+							</div>
+
+			<div class="m-post-card__button"><a class="button -primary -blue" href="https://stackoverflow.blog/2017/10/05/need-know-start-career-data-scientist/">Continue reading</a></div>
+
+			<!-- Publisher info is required. This code block doesn't output anything) -->
+			<div itemprop="publisher" itemscope="itemscope" itemtype="https://schema.org/Organization">
+				<div itemprop="logo" itemscope="itemscope" itemtype="https://schema.org/ImageObject">
+					<meta itemprop="url" content="https://placekitten.com/g/100/100" />
+					<meta itemprop="width" content="100" />
+					<meta itemprop="height" content="100" />
+				</div>
+				<meta itemprop="name" content="Client Company" />
+			</div><!--/.itemprop=publisher-->
+		</div>
+
+	</div>
+
+ </article>
+		</div>
+
+		</div>
+				</div>
+				<!-- // 3x Most recent Articles component -->
+			</div> <!-- content-river column -->
+
+			<aside class="sidebar column">
+<div class="sidebar-inner">
+
+			<section id="stackoverflow-social-follows-2" class="widget widget_stackoverflow-social-follows">	<h2 class="section-title section-title--tertiary">Follow us</h2>		<div class="social-menu widget">
+		<ul>
+							<li class="list-item list-item--facebook">
+					<a href="https://www.facebook.com/officialstackoverflow/">
+						<span class="logo-container">
+							<svg role="img" class="so-icon so-icon-facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Stack Overflow Facebook"><use xlink:href="https://stackoverflow.blog/wp-content/themes/stackoverflow/assets/svg/output/symbol-defs.svg#so-icon-facebook" /></svg>						</span>
+						Official Stack Overflow					</a>
+				</li>
+										<li class="list-item list-item--twitter">
+					<a href="https://twitter.com/stackoverflow">
+						<span class="logo-container">
+							<svg role="img" class="so-icon so-icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Stack Overflow Twitter"><use xlink:href="https://stackoverflow.blog/wp-content/themes/stackoverflow/assets/svg/output/symbol-defs.svg#so-icon-twitter" /></svg>						</span>
+						@StackOverflow					</a>
+				</li>
+										<li class="list-item list-item--linkedin">
+
+					<a href="https://www.linkedin.com/company/stack-overflow">
+						<span class="logo-container">
+							<svg role="img" class="so-icon so-icon-linkedin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Stack Overflow Linkedin"><use xlink:href="https://stackoverflow.blog/wp-content/themes/stackoverflow/assets/svg/output/symbol-defs.svg#so-icon-linkedin" /></svg>						</span>
+
+						Stack Overflow					</a>
+				</li>
+					</ul>
+	</div>
+</section><section id="stackoverflow-cta-2" class="widget widget_stackoverflow-cta">		<h2 class="section-title section-title--tertiary">Developer Jobs</h2>			<div class="jobs widget">
+		<p>Build your career with Stack Overflow. Get a better job - whether it’s more money, better tech, or remote.</p>
+		<a href="https://stackoverflow.com/jobs?utm_source=so-owned&#038;utm_medium=blog&#038;utm_campaign=gen-blog&#038;utm_content=sidebar-rgt" class="button -tertiary -outline">Explore All Job Openings Now!</a>
+	</div>
+	</section><section id="stackoverflow-main-categories-2" class="widget widget_stackoverflow-main-categories">	<h2 class="section-title section-title--tertiary">Categories</h2>		<div class="categories widget">
+		<ul class="m-category-list">
+								<a class="m-category-list__item" href="https://stackoverflow.blog/company/">
+													<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/company.svg"
+								 alt="Company"/>
+												<div>
+							<h4 class="m-category-list__title">Company</h4>
+							<p class="m-category-list__description">Find the latest news about what we&#039;re doing at Stack Overflow from product launches to big hires and more.</p>
+						</div>
+					</a>
+									<a class="m-category-list__item" href="https://stackoverflow.blog/code-for-a-living/">
+													<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/code-for-a-living.svg"
+								 alt="Code for a Living"/>
+												<div>
+							<h4 class="m-category-list__title">Code for a Living</h4>
+							<p class="m-category-list__description">Programmers are writing the script of the future. We’re here to help them at every stage of their careers.</p>
+						</div>
+					</a>
+									<a class="m-category-list__item" href="https://stackoverflow.blog/insights/">
+													<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/speakers.svg"
+								 alt="Insights"/>
+												<div>
+							<h4 class="m-category-list__title">Insights</h4>
+							<p class="m-category-list__description">Learn about the world&#039;s developers from the company that knows them best.</p>
+						</div>
+					</a>
+									<a class="m-category-list__item" href="https://stackoverflow.blog/engineering/">
+													<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/engineering.svg"
+								 alt="Engineering"/>
+												<div>
+							<h4 class="m-category-list__title">Engineering</h4>
+							<p class="m-category-list__description">Keep tabs on what Stack Overflow&#039;s engineering team does to keep the world&#039;s largest developer community up and running.</p>
+						</div>
+					</a>
+									<a class="m-category-list__item" href="https://stackoverflow.blog/podcasts/">
+													<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/podcasts.svg"
+								 alt="Podcasts"/>
+												<div>
+							<h4 class="m-category-list__title">Podcasts</h4>
+							<p class="m-category-list__description">The Stack Overflow Podcast lets you listen in on what’s new with the world’s largest developer community.</p>
+						</div>
+					</a>
+									</ul>
+	</div>
+</section><section id="stackoverflow-developer-hiring-blog-2" class="widget widget_stackoverflow-developer-hiring-blog">		<ul class="m-category-list">
+			<a class="m-category-list__item" href="https://www.stackoverflowbusiness.com/blog?utm_source=so-blog-sidebar&#038;utm_medium=referral&#038;utm_term=categories-developer-hiring-blog">
+				<img class="m-category-list__icon" src="https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/images/talent.svg" alt="Developer Hiring Blog"/>
+				<div>
+					<h4 class="m-category-list__title link-offsite">Developer Hiring Blog</h4>
+					<p class="m-category-list__description">The Developer Hiring Blog is your go-to place for learning how to recruit and hire tech talent.</p>
+				</div>
+			</a>
+		</ul>
+		</section><section id="stackoverflow-contributors-11" class="widget widget_stackoverflow-contributors">
+	<h2 class="section-title section-title--tertiary">Contributors</h2>	
+	<div class="contributors widget">
+		<ul class="contributor-list">
+								<li>
+						
+<div class="m-contributor">
+	<img src="//stackoverflow.blog/wp-content/uploads/2017/02/a.png" class="m-contributor__avatar">
+	<div class="m-contributor__meta">
+		<a class="m-contributor__name" href="https://stackoverflow.blog/authors/amazzina/">Alyssa Mazzina</a>
+		<div class="m-contributor__description">Content Writer, Developer Marketing</div>
+	</div>
+</div>
+					</li>
+										<li>
+						
+<div class="m-contributor">
+	<img src="//stackoverflow.blog/wp-content/uploads/2017/10/MA31atwq_400x400.jpg" class="m-contributor__avatar">
+	<div class="m-contributor__meta">
+		<a class="m-contributor__name" href="https://stackoverflow.blog/authors/pieterdepree/">Pieter DePree</a>
+		<div class="m-contributor__description">Lead People Ops Partner</div>
+	</div>
+</div>
+					</li>
+										<li>
+						
+<div class="m-contributor">
+	<img src="//stackoverflow.blog/wp-content/uploads/2017/02/7c279546cc771d2c0bc4590587502647.jpeg" class="m-contributor__avatar">
+	<div class="m-contributor__meta">
+		<a class="m-contributor__name" href="https://stackoverflow.blog/authors/jpardue/">Jess Pardue</a>
+		<div class="m-contributor__description">Operations Manager</div>
+	</div>
+</div>
+					</li>
+										<li>
+						
+<div class="m-contributor">
+	<img src="//stackoverflow.blog/wp-content/uploads/2017/02/mCoc7.jpg" class="m-contributor__avatar">
+	<div class="m-contributor__meta">
+		<a class="m-contributor__name" href="https://stackoverflow.blog/authors/drobinson/">David Robinson</a>
+		<div class="m-contributor__description">Data Scientist</div>
+	</div>
+</div>
+					</li>
+										<li>
+						
+<div class="m-contributor">
+	<img src="//stackoverflow.blog/wp-content/uploads/2017/02/profile2017-e1497464457561.jpg" class="m-contributor__avatar">
+	<div class="m-contributor__meta">
+		<a class="m-contributor__name" href="https://stackoverflow.blog/authors/juliasilge/">Julia Silge</a>
+		<div class="m-contributor__description">Data Scientist</div>
+	</div>
+</div>
+					</li>
+							</ul>
+	</div>
+	</section>	
+</div>
+</aside>
+		</div>
+
+	</main>
+
+</div>
+
+
+
+</div><!-- #content -->
+
+
+<!-- twitter row -->
+<div class="twitter-row">
+	<div class="wrapper">
+
+		<div class="twitter-row__header">
+			<h2 class="section-title section-title--secondary">Recent Tweets</h2>
+
+			<div class="twitter-row__cta">
+				<div class="twitter-row__logo">
+					<svg role="img" class="so-icon so-icon-logo-no-name" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Stack Overflow Logo"><use xlink:href="https://stackoverflow.blog/wp-content/themes/stackoverflow/assets/svg/output/symbol-defs.svg#so-icon-logo-no-name" /></svg>				</div>
+				<div class="twitter-row__handle">
+					<strong>Stack Overflow</strong>
+					<a href="https://twitter.com/stackoverflow" target="blank">@StackOverflow</a>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="twitter-row__tweets">
+<div class="m-tweet-card">
+	<div class="m-tweet-card__time"><a href="https://twitter.com/StackOverflow/status/918856024542494721">3:08 PM - 13 October 2017</a></div>
+	<div class="m-tweet-card__text">For those in Huntsville, Alabama today for DevSpace, don't forget to say hi to our very own @Wright2Tweet &amp; get "No… https://t.co/VM9aGEnDJo</a></div>
+</div>
+
+
+<div class="m-tweet-card">
+	<div class="m-tweet-card__time"><a href="https://twitter.com/StackOverflow/status/918844026891026432">2:21 PM - 13 October 2017</a></div>
+	<div class="m-tweet-card__text">RT @MongoDB: #javascript, #reactjs &amp; #Mongodb skills are in demand w/ UK employers reports @StackOverflow. Learn all 3 at #MDBE17 https://t…</a></div>
+</div>
+
+
+<div class="m-tweet-card">
+	<div class="m-tweet-card__time"><a href="https://twitter.com/StackOverflow/status/918827638478770176">1:15 PM - 13 October 2017</a></div>
+	<div class="m-tweet-card__text">The Pros and Cons of Working Remotely https://t.co/aGssL4dN4g</a></div>
+</div>
+
+</div><!-- .twitter-row__tweets -->
+	</div>
+</div>
+</div>
+<!-- twitter row -->
+
+
+<div class="footer-ctas-wrapper">
+	<div class="wrapper">
+		<div class="columns is-gapless footer-column-wrapper">
+			<div class="column footer-left-cta">
+				<div class="m-footer-cta">
+	<h2 class="m-footer-cta__title">Developer Jobs</h2>
+	<div class="m-footer-cta__description">
+		Build your career with Stack Overflow, where developers come first.		</div>
+	<a href="http://stackoverflow.com/jobs?utm_source=so-owned&#038;utm_medium=blog&#038;utm_campaign=gen-blog&#038;utm_content=sidebar-btm-overview" class="m-footer-cta__button button -secondary -padded -white -outline">See all job openings now!</a>
+
+</div>
+			</div>
+
+			<div class="column footer-right-cta">
+				<div class="m-footer-cta">
+	<h2 class="m-footer-cta__title">Stack Overflow Talent</h2>
+	<div class="m-footer-cta__description">
+		Source, attract, and recruit technical talent on the platform developers trust.		</div>
+	<a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-blog-footer-cta&#038;utm_medium=referral&#038;utm_term=orange-cta" class="m-footer-cta__button button -secondary -padded -white -outline">Learn More</a>
+
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script>
+		if (undefined === window.$ && undefined !== window.jQuery) {
+			window.$ = window.jQuery;
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/chrome/chrome-footer.css?v=6e178e4bbc2b">
+    <footer id="footer" class="s-footer js-footer" role="contentinfo">
+        <div class="-container">
+            <div class="g-row">
+                    <div class="-logo">
+                        <a href="https://stackoverflow.com"><svg aria-hidden="true" class="svg-icon native iconLogo" width="150" height="30" viewBox="0 0 150 30"><g><path d="M33.9 18.6l-1.7-.2c-1.3-.1-1.9-.6-1.9-1.6 0-1.1.8-1.8 2.4-1.8 1.1 0 2.1.3 2.8.8l1-1c-1-.8-2.3-1.1-3.8-1.1-2.3 0-3.9 1.2-3.9 3.1 0 1.8 1.1 2.7 3.2 2.9l1.8.2c1.2.1 1.8.6 1.8 1.6 0 1.3-1.1 1.9-2.8 1.9-1.3 0-2.5-.3-3.3-1.2l-1 1c1.2 1.1 2.6 1.5 4.4 1.5 2.6 0 4.3-1.2 4.3-3.2-.2-2-1.5-2.7-3.3-2.9zm13.3-4.8c-1.7 0-2.8.3-3.7 1.5l1 1c.6-.9 1.3-1.2 2.7-1.2 1.9 0 2.7.8 2.7 2.3v1h-3.2c-2.4 0-3.7 1.2-3.7 3.1 0 .8.3 1.6.8 2.2.7.7 1.5 1 3 1 1.4 0 2.2-.3 3.1-1.1v1h1.6v-7.2c-.1-2.4-1.5-3.6-4.3-3.6zm2.7 7c0 .9-.2 1.5-.5 1.8-.7.6-1.5.7-2.4.7-1.7 0-2.4-.6-2.4-1.8 0-1.2.8-1.9 2.4-1.9h3l-.1 1.2zm7.6-5.6c1 0 1.6.3 2.4 1.2l1-1c-1.1-1.2-2-1.6-3.5-1.6-2.7 0-4.7 1.8-4.7 5.5 0 3.6 2 5.5 4.7 5.5 1.5 0 2.4-.4 3.5-1.6l-1.1-1c-.8.9-1.4 1.2-2.4 1.2s-1.9-.4-2.5-1.2c-.5-.7-.7-1.5-.7-2.9 0-1.3.2-2.2.7-2.9.7-.8 1.6-1.2 2.6-1.2zm13.4-1.3H69l-4.8 4.7V9.1h-1.6v15.4h1.6v-3.9l1.9-1.9 3.6 5.8h1.9l-4.4-6.9 3.7-3.7zm7.3-.33c-1.6 0-2.7.6-3.4 1.4-1 1-1.3 2.3-1.3 4.3s.3 3.3 1.3 4.3c.7.7 1.8 1.4 3.4 1.4 1.6 0 2.8-.6 3.4-1.4 1-1 1.3-2.3 1.3-4.3s-.3-3.3-1.3-4.3c-.6-.8-1.7-1.4-3.4-1.4zm1.3 8.3c-.3.3-.7.5-1.3.5-.6 0-1-.2-1.3-.5-.6-.6-.6-1.6-.6-2.7 0-1.2.1-2.1.6-2.7.3-.3.7-.5 1.3-.5.6 0 1 .2 1.3.5.6.6.6 1.5.6 2.7.1 1.2 0 2.2-.6 2.7zm10.8-8.2l-2.2 6.9-2.3-6.9h-2.9l4.1 11.1h2.2l4.1-11.1h-3zm7.6-.1c-2.9 0-4.8 2-4.8 5.7 0 4.5 2.5 5.7 5.1 5.7 2 0 3.1-.6 4.2-1.7l-1.7-1.6c-.7.7-1.3 1-2.5 1-1.6 0-2.4-1-2.4-2.5h6.9v-1.2c0-3.2-1.7-5.4-4.8-5.4zm-2.1 4.6c0-.5.1-.8.3-1.2.3-.7.9-1.2 1.9-1.2.9 0 1.6.5 1.9 1.2.2.4.2.7.3 1.2h-4.4zm11-3.4v-1.1h-2.7v11.1h2.8v-6.7c0-1.4.9-2 1.8-2 .7 0 1 .2 1.5.7l2.1-2.1c-.8-.8-1.5-1-2.6-1-1.3-.1-2.3.4-2.9 1.1zm6.3-2.3v12.3h2.8v-8.8h2v-2.1h-2v-1.2c0-.6.3-1 1-1h1.1v-2.3h-1.6c-2.3 0-3.3 1.6-3.3 3.1zm16.2 1.1c-1.6 0-2.7.6-3.4 1.4-1 1-1.3 2.3-1.3 4.3s.3 3.3 1.3 4.3c.7.7 1.8 1.4 3.4 1.4 1.6 0 2.8-.6 3.4-1.4 1-1 1.3-2.3 1.3-4.3s-.3-3.3-1.3-4.3c-.6-.8-1.8-1.4-3.4-1.4zm1.3 8.3c-.3.3-.7.5-1.3.5-.6 0-1-.2-1.3-.5-.6-.6-.6-1.6-.6-2.7 0-1.2.1-2.1.6-2.7.3-.3.7-.5 1.3-.5.6 0 1 .2 1.3.5.6.6.6 1.5.6 2.7 0 1.2 0 2.2-.6 2.7zm16.5-8.2l-1.8 6.9-2.3-6.9h-2l-2.3 6.9-1.8-6.9H134l3.4 11.1h2.3l2.3-7 2.3 7h2.3l3.4-11.1h-2.9zm-25.1 7.7V9.27h-2.8v12.3c0 1.6 1 3.2 3.2 3.2h1.6v-2.3h-1c-.7 0-1-.4-1-1.1zM41.3 15.6l1.4-1.4h-3v-3.5h-1.6v11.1c0 1.6.9 2.9 2.7 2.9h1.1v-1.3h-.8c-1 0-1.5-.6-1.5-1.6v-6.1h1.7v-.1z" fill="#222426"/><path fill="#BCBBBB" d="M21 27v-8h3v11H0V19h3v8z"/><path d="M5.4 19.1l13.56 1.96.17-2.38-13.26-2.55-.47 2.97zm1.8-6.8l12 5.6 1.1-2.4-12-5.6-1.1 2.4zm3.4-5.9l10.2 8.5 1.7-2-10.2-8.5-1.7 2zM17.1.2L15 1.8l7.9 10.6 2.1-1.6L17.1.2zM5 25h14v-3H5v3z" fill="#F48024"/></g></svg></a>
+                    </div>
+                
+                    <nav class="-nav js-category _visible" data-name="default">
+                        <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 0, link: 15})">Stack Overflow</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://stackoverflow.com/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 16})">Questions</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 17})">Jobs</a></li>
+                                <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 11})">Developer Jobs Directory</a></li>
+                                     <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 28})">Salary Calculator</a></li>
+                                                    </ul>
+                    </nav>
+                    <nav class="-nav js-category _visible" data-name="default">
+                        <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation&utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 0, link: 19 })">Stack Overflow<br /> Business</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation&utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 20 })">Talent</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation&utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 21 })">Ads</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation&utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 22 })">Enterprise</a></li>
+                            <li class="-item"><a href="https://www.stackoverflowbusiness.com/insights?utm_source=so-footer&utm_medium=referral&utm_campaign=brand-activation&utm_term=sotob2b-footer-insights" class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 23 })">Insights</a></li>
+                        </ul>
+                    </nav>
+                <nav class="-nav js-category _visible" data-name="default">
+                    <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 0, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5>
+                    <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li>
+                                                <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li>
+                        <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li>
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="-network g-row">
+                    <a href="#" class="-back-trigger js-back"><svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewBox="0 0 18 18"><path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z"/></svg></a>
+                    <div>
+                        <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5>
+                        <ul class="-list">
+                            <li class="-item"><a href="#" class="-link _expandable js-category-trigger js-gps-track" data-gps-track="footer.click({ location: 0, link: 24 })" data-target="Technology">Technology</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-category-trigger js-gps-track" data-gps-track="footer.click({ location: 0, link: 24 })" data-target="Life / Arts">Life / Arts</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-category-trigger js-gps-track" data-gps-track="footer.click({ location: 0, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-category-trigger js-gps-track" data-gps-track="footer.click({ location: 0, link: 24 })" data-target="Science">Science</a></li>
+                            <li class="-item"><a href="#" class="-link _expandable js-category-trigger js-gps-track" data-gps-track="footer.click({ location: 0, link: 24 })" data-target="Other">Other</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <nav class="-nav js-category" data-name="Technology">
+        <ul class="-list">
+                <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li>
+                <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li>
+                <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li>
+                <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li>
+                <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li>
+                <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li>
+                <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li>
+                <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li>
+                <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li>
+                <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li>
+                <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li>
+                <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li>
+                <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li>
+                <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li>
+                <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li>
+                <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li>
+                <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li>
+                <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li>
+                <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li>
+                <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li>
+                <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine&#174; CMS">ExpressionEngine&#174; Answers</a></li>
+                <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Portugu&#234;s</a></li>
+                <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li>
+                <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li>
+                <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li>
+                <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li>
+                <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li>
+                <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li>
+                <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li>
+                <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li>
+                <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Technology"><ul class="-list">
+                <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li>
+                <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la inform&#225;tica">Stack Overflow en espa&#241;ol</a></li>
+                <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li>
+                <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li>
+                <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (26)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+    <nav class="-nav js-category" data-name="Life / Arts">
+        <ul class="-list">
+                <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li>
+                <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li>
+                <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li>
+                <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li>
+                <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li>
+                <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li>
+                <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Life / Arts"><ul class="-list">
+                <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li>
+                <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li>
+                <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li>
+                <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (17)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+    <nav class="-nav js-category" data-name="Culture / Recreation">
+        <ul class="-list">
+                <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li>
+                <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li>
+                <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li>
+                <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li>
+                <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li>
+                <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li>
+                <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Culture / Recreation"><ul class="-list">
+                <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li>
+                <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li>
+                <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li>
+                <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li>
+                <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li>
+                <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (32)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+    <nav class="-nav js-category" data-name="Science">
+        <ul class="-list">
+                <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li>
+                <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li>
+                <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li>
+                <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li>
+                <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li>
+                <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li>
+                <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li>
+                    </ul></nav><nav class="-nav js-category" data-name="Science"><ul class="-list">
+                <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li>
+                <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li>
+                            <li class="-item">
+                    <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })">
+                        <strong>
+                            more (10)
+                        </strong>
+                    </a>
+                </li>
+        </ul>
+    </nav>
+    <nav class="-nav js-category" data-name="Other">
+        <ul class="-list">
+                <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li>
+                <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li>
+                <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li>
+                <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li>
+                <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li>
+                    </ul>
+    </nav>
+                <div class="-copyright g-row jc-end">
+                    <div class="g-column jc-sp-between">
+                        <ul class="-list">
+                            <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 0, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li>
+                            <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li>
+                            <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li>
+                            <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li>
+                        </ul>
+
+                        <div>
+                            <p>
+                                site design / logo &#169; 2017 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license" class="-link">cc by-sa 3.0</a>
+                                with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license" class="-link">attribution required</a>.
+                                <span id="svnrev">rev 2017.10.13.27433</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                    </div>
+    </footer>
+        <script>
+            var $trigger = $('.js-category-trigger'), $footer = $('.js-footer'), $back = $('.js-back'), $categories = $('.js-category');
+
+            function setCategory(target) {
+                var $picked = $categories.filter('[data-name="' + target + '"]');
+                $categories.removeClass('_visible');
+                $picked.addClass('_visible');
+            }
+
+            $trigger.on('click', function (e) {
+                e.preventDefault();
+
+                var target = $(this).data('target');
+
+                $trigger.removeClass('_active');
+                $(this).addClass('_active');
+
+                $footer.addClass('_is-category-open');
+                setCategory(target);
+            });
+
+            $back.on('click', function (e) {
+                e.preventDefault();
+
+                $trigger.removeClass('_active');
+                $footer.removeClass('_is-category-open');
+
+                setCategory('default');
+            });
+        </script>
+
+	<!-- Google Analytics -->
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-5620270-58', 'auto');
+				ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ececeb97191880b"></script><script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/js/stackoverflow-vendor.min.js?ver=20171013'></script>
+<script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/themes/stackoverflow/assets/js/stackoverflow.min.js?ver=20171013'></script>
+<script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"stackoverflowblog"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://zgab33vy595fw5zq-zippykid.netdna-ssl.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.8.2'></script>
+	  <script type="text/javascript">
+		(function() {
+		  var t   = document.createElement( 'script' );
+		  t.type  = 'text/javascript';
+		  t.async = true;
+		  t.id    = 'gauges-tracker';
+		  t.setAttribute( 'data-site-id', '58a295c34b2ffa62041185f8' );
+		  t.src = '//secure.gaug.es/track.js';
+		  var s = document.getElementsByTagName( 'script' )[0];
+		  s.parentNode.insertBefore( t, s );
+		})();
+	  </script>
+	  
+</body>
+</html>
+<!--
+	generated in 0.248 seconds
+	86533 bytes batcached for 300 seconds
+-->
